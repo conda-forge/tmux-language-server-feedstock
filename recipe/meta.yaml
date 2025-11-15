@@ -1,4 +1,4 @@
-{% set version = "0.0.13" %}
+{% set version = "0.0.15" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tmux-language-server/tmux_language_server-{{ version }}.tar.gz
-  sha256: 3e3bb1dbb6efa45499f308729b3e8ab04f694e4d29c3c93cc7307d1dde187d29
+  sha256: 79db5181ab7fb6d334d4308d18475bdeed76055ad9fed5382d6b980fedba6daf
 
 build:
   entry_points:
