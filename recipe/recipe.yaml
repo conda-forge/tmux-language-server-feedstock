@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.0.17
+  version: "0.1.0"
 
 package:
   name: tmux-language-server
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tmux-language-server/tmux_language_server-${{ version }}.tar.gz
-  sha256: 3d499fab8089d15f41841c18097e407da658cbb96f368dbfcc5d7587ae193387
+  sha256: 50f8177564a460a81d3304f2a6a86c53ed6beb84b6d4595e5315a9422d3bba28
 
 build:
   number: 0
